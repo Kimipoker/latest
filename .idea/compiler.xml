@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fx" />
+        <module name="filesSpider" />
+        <module name="algorithm" />
+        <module name="weChatImg" />
+        <module name="java8" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algorithm" target="1.8" />
+      <module name="filesSpider" target="1.8" />
+      <module name="fx" target="1.8" />
+      <module name="java8" target="1.8" />
+      <module name="letest" target="1.8" />
+      <module name="letest (1)" target="1.8" />
+      <module name="weChatImg" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

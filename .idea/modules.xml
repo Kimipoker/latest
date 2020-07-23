@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filesSpider/filesSpider.iml" filepath="$PROJECT_DIR$/filesSpider/filesSpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fx/fx.iml" filepath="$PROJECT_DIR$/fx/fx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letest.iml" filepath="$PROJECT_DIR$/letest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letest (1).iml" filepath="$PROJECT_DIR$/letest (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/weChatImg/weChatImg.iml" filepath="$PROJECT_DIR$/weChatImg/weChatImg.iml" />
+    </modules>
+  </component>
+</project>
