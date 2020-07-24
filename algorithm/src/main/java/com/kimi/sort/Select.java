@@ -6,7 +6,10 @@ import java.util.Arrays;
  * 选择排序
  */
 public class Select implements Sort{
-
+    /**
+     * 第i次循环找到第i小的元素放到第i个位置
+     * @param arr
+     */
     public  void sort(int[] arr) {
         int minIndex;
         int tem;
