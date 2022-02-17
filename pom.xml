@@ -14,6 +14,7 @@
     <module>fx</module>
       <module>weChatImg</module>
       <module>algorithm</module>
+    <module>juc</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -1,9 +1,6 @@
 package com.kimi.array;
 
-import org.omg.CORBA.Object;
-import sun.security.util.Length;
 
-import java.util.Arrays;
 
 public class SparseArray<T> {
 
@@ -56,6 +53,7 @@ public class SparseArray<T> {
         if (length != 3) {
             throw new RuntimeException("数据格式错误");
         }
+
         int rowSize = sparseArr[0][0];
         int colSize = sparseArr[0][1];
         arr = new int[rowSize][colSize];

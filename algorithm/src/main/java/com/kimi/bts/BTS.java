@@ -10,7 +10,10 @@ import java.util.Stack;
  */
 public class BTS<E extends Comparable<E>>  {
 
-
+    /**
+     * 可增加深度,增加每个节点的子孙节点数,
+     * 增加count来支持
+     */
     private class Node {
         public E e;
         public Node left;
@@ -26,7 +29,7 @@ public class BTS<E extends Comparable<E>>  {
     private int size;
 
     /**
-     * 添加树节点
+     * 添加树节点dian
      * @param e
      */
     public void add(E e) {
@@ -242,11 +245,11 @@ public class BTS<E extends Comparable<E>>  {
         while(!queue.isEmpty()){
             Node pop = queue.remove();
             System.out.println(pop.e);
-            if (pop.right != null) {
-                queue.add(pop.right);
-            }
             if (pop.left != null) {
                 queue.add(pop.left);
+            }
+            if (pop.right != null) {
+                queue.add(pop.right);
             }
         }
     }
@@ -288,11 +291,15 @@ public class BTS<E extends Comparable<E>>  {
             size--;
             //左子树为空 返回右子树
             if (node.left == null) {
-                return node.right;
+                Node right = node.right;
+                node.right=null;
+                return right;
             }
             //右子树为空 返回左子树
             else if (node.right==null){
-                return node.left;
+                Node left = node.left;
+                node.left = null;
+                return left;
             }
             //左右子树都不为空  返回右子树的最小节点(也可返回左子树的最大节点)
             else{
@@ -303,6 +310,14 @@ public class BTS<E extends Comparable<E>>  {
             }
 
         }
+
+    }
+
+    public void rank() {
+
+    }
+
+    public void select() {
 
     }
 }
